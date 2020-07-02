@@ -1,0 +1,90 @@
+#hero-title{
+  font-family: 'Montserrat Subrayada', sans-serif;
+  position: relative;
+  bottom: 870px;
+  color: white;
+  font-size: 60px;
+}
+h4{
+  font-family: 'Montserrat Subrayada', sans-serif;
+
+}
+td{
+  font-family: 'Permanent Marker', cursive;
+}
+th{
+  font-family: 'MuseoModerno', cursive;
+}
+#hero-name{
+  font-family: 'Montserrat Subrayada', sans-serif;
+  margin-left: 50px;
+  padding-top: 30px;
+}
+.biography-tab{
+  margin-left: 50px;
+  width: 20%;
+  z-index: 1;
+}
+.power-tab{
+  margin-left: 50px;
+  width: 20%;
+}
+.back-img{
+  position: fixed;
+  z-index: -1;
+  opacity: 0.7;
+}
+.search-hero-pic{
+  position: absolute;
+  z-index: 1;
+  bottom: 400px;
+  width: 200px;
+  right: 900px;
+}
+.search-hreo-pic:hover{
+  opacity: 0.8;
+}
+#hero-disc{
+font-family: 'Permanent Marker', cursive;
+position: relative;
+bottom: 850px;
+color: white;
+font-size: 40px;
+}
+#hero-input{
+  width: 400px;
+}
+.hero-form{
+  position: relative;
+  bottom: 800px;
+  color: white;
+  font-size: 20px;
+  font-family: 'MuseoModerno', cursive;
+}
+.title-box{
+  margin-left: 30px;
+}
+.front-img{
+  margin-bottom: -150px;
+}
+.another-search{
+  position: fixed;
+  bottom: 600px;
+  left: 1000px;
+  font-family: 'MuseoModerno', cursive;
+}
+footer{
+  background-color: #2f2519;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #fa7d09;
+  font-family: 'MuseoModerno', cursive;
+  font-size: 10px;
+}
+.hero-div{
+
+}
+.hero-elements{
+
+}

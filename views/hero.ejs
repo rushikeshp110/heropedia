@@ -1,0 +1,109 @@
+<%- include('partials/header') %>
+<img src="superwoman.jpg" class="img-fluid back-img" alt="">
+<div class="hero-div">
+  <h1 id="hero-name"><%= name %></h1>
+  <table class="table table-borderless biography-tab table-sm">
+
+  <tbody>
+    <tr>
+      <th><h4>Biography</h4></th>
+    </tr>
+    <tr>
+      <th scope="row">Publisher</th>
+      <td><%= publisher %></td>
+    </tr>
+    <tr>
+      <th scope="row">alignment</th>
+      <td><%= alignment %></td>
+    </tr>
+  </tbody>
+</table>
+<table class="table table-sm table-borderless power-tab">
+<tbody>
+  <tr>
+    <th><h4>powerstats</h4></th>
+  </tr>
+  <tr>
+    <th scope="row">intelligence</th>
+    <td><%= intelligence %></td>
+  </tr>
+  <tr>
+    <th scope="row">Strength</th>
+    <td><%= strength %></td>
+  </tr>
+  <tr>
+    <th scope="row">Speed</th>
+    <td><%= speed %></td>
+  </tr>
+  <tr>
+    <th scope="row">Durability</th>
+    <td><%= durability %></td>
+  </tr>
+  <tr>
+    <th scope="row">Power</th>
+    <td><%= power %></td>
+  </tr>
+  <tr>
+    <th scope="row">Combat</th>
+    <td><%= combat %></td>
+  </tr>
+</tbody>
+</table>
+<table class="table table-sm table-borderless power-tab">
+<tbody>
+  <tr>
+    <th><h4>Appearance</h4></th>
+  </tr>
+  <tr>
+    <th scope="row">Gender</th>
+    <td><%= gender %></td>
+  </tr>
+  <tr>
+    <th scope="row">Race</th>
+    <td><%= race %></td>
+  </tr>
+  <tr>
+    <th scope="row">Height</th>
+    <td><%= height %></td>
+  </tr>
+  <tr>
+    <th scope="row">Weight</th>
+    <td><%= weight %></td>
+  </tr>
+</tbody>
+</table>
+<table class="table table-sm table-borderless power-tab">
+<tbody>
+  <tr>
+    <th><h4>Work</h4></th>
+  </tr>
+  <tr>
+    <th scope="row">Occupation</th>
+    <td><%= occupation %></td>
+  </tr>
+  <tr>
+    <th scope="row">Base</th>
+    <td><%= base %></td>
+  </tr>
+</tbody>
+</table>
+
+<table class="table table-sm table-borderless power-tab">
+  <tbody>
+
+    <tr>
+      <th><h4>relatives</h4></th>
+      <td><%= relatives %></td>
+    </tr>
+  </tbody>
+</table>
+
+  <div >
+    <img  class="search-hero-pic"src="<%= img %>" alt="">
+  </div>
+</div>
+<div class="another-search">
+  <a href="/"><button type="button" class="btn btn-lg btn-outline-dark" name="button">Search Another Hero</button></a>
+</div>
+
+    <%- include('partials/footer') %>
